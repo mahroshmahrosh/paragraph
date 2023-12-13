@@ -1,0 +1,38 @@
+body {
+    font-family:'Open Sans',Arial, Helvetica, sans-serif;
+  }
+  .row{
+    font-size: 20px;
+  }
+  .button{
+    border: none;
+    background-color: white;
+    font-size: 20px;
+  }
+  a.showLess {
+    display:block;
+    font-size:12px;
+    font-weight:700;
+    text-transform:uppercase;
+    margin-top:20px;
+    color:#0077C8;
+    text-decoration:none;
+    &::after {
+      content:'+ VIEW MORE';
+    }
+    &.showLess::after {
+      content:'- VIEW LESS';
+    }
+  }
+  h4 {
+    margin:0px 0px 4px 0px;
+  }
+.row1{
+  border-top: 2px solid gray;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.sana{
+  border-bottom: 2px solid gray;
+  margin-top: 30px;
+}
